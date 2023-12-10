@@ -1,4 +1,4 @@
-package itMentorFuckingTest;
+package itMentorTest;
 
 import java.util.Scanner;
 
@@ -39,8 +39,8 @@ public class Main {
 				chk += codeOfLet;
 				ordSign = chk;
 			}
-			if (chk > 80) {
-				System.out.println("Too much signs");
+			if ((chk > 80)||(chk < 40)) {
+				System.out.println("Incorrect signs");
 				return true;
 			}
 		}

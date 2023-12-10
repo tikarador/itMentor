@@ -1,4 +1,4 @@
-package itMentorFuckingTest;
+package itMentorTest;
 
 public class TestException extends Exception {
 
