@@ -39,15 +39,18 @@ public class Main {
 				chk += codeOfLet;
 				ordSign = chk;
 			}
-			if ((chk > 80)||(chk < 40)) {
-				System.out.println("Incorrect signs");
-				return true;
-			}
 		}
+		
+		if ((chk > 80)||(chk < 40)) {
+			System.out.println("Incorrect signs");
+			return true;
+		}
+		
 		if (((int)input.charAt(0) < 48)||((int)input.charAt(0) > 57)) {
 			System.out.println("Incorrect data");
 			return true;
 		}
+		
 		if (((int)input.charAt(lng - 1) < 48)||((int)input.charAt(lng - 1) > 57)) {
 			System.out.println("Incorrect data");
 			return true;
