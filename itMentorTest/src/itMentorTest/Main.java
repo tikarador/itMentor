@@ -51,7 +51,7 @@ public class Main {
 			return true;
 		}
 		
-		if (((int)input.charAt(lng - 1) < 48)||((int)input.charAt(lng - 1) > 57)) {
+		if (((int)input.charAt(lng - 1) < 48)) {
 			System.out.println("Incorrect data");
 			return true;
 		}
